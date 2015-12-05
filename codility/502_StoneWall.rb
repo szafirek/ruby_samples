@@ -1,5 +1,8 @@
 #!/usr/bin/env ruby -w
 
+### Lesson 5: Stacks and Queues
+### Exercise 02: StoneWall
+
 def solution(h)
     counter = 1
     stack = [h[0]]

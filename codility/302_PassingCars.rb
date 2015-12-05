@@ -1,5 +1,8 @@
 #!/usr/bin/env ruby -w
 
+### Lesson 3: Prefix Sums
+### Exercise 02: PassingCars
+
 def solution(a)
     first = 0
     first += 1 while a[first] == 1

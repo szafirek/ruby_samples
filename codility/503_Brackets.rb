@@ -1,14 +1,19 @@
 #!/usr/bin/env ruby -w
 
+### Lesson 5: Stacks and Queues
+### Exercise 03: Brackets
+
 def solution(s)
     return 1 if s.empty?
     return 0 if s.size % 2 != 0
+    pairs = {"{" => "}", "[" => "]", "(" => ")"}
+    to_stack = ["{","[","("]
     stack = []
     s.each_char do |c|
-        if c == '('
+        if to_stack.include?(c)
             stack << c
         else
-            if !stack.empty?
+            if pairs[stack.last] == c
                 stack.pop
             else
                 return 0

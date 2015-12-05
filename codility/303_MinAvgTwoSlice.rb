@@ -1,5 +1,8 @@
 #!/usr/bin/env ruby -w
 
+### Lesson 3: Prefix Sums
+### Exercise 03: MinAvgTwoSlice
+
 def solution(a)
     min = (a[0] + a[1]) / 2.0
     index = 0

@@ -1,5 +1,8 @@
 #!/usr/bin/env ruby -w
 
+### Lesson 7: Maximum slice problem
+### Exercise 03: MaxSliceSum
+
 def solution(a)
     max_ending, max_slice = a[0], a[0]
     1.upto(a.length-1) do |i|

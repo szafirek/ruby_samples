@@ -1,5 +1,8 @@
 #!/usr/bin/env ruby -w
 
+### Lesson 2: Counting Elements
+### Exercise 01: FrogRiverOne
+
 def solution(x, a)
     ar = Array.new(x+1,true)
     sum = (1..x).reduce(:+)

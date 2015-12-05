@@ -1,5 +1,8 @@
 #!/usr/bin/env ruby -w
 
+### Lesson 4: Sorting
+### Exercise 02: Distinct
+
 def solution(a)
     return 0 if a.length == 0
     counter = 1

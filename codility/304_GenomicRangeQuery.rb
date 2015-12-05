@@ -1,5 +1,8 @@
 #!/usr/bin/env ruby -w
 
+### Lesson 3: Prefix Sums
+### Exercise 04: GenomicRangeQuery
+
 def solution(s, p, q)
     result = []
     changes = {'A' => 1, 'C' => 2, 'G' => 3, 'T' => 4}

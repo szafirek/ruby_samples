@@ -1,5 +1,8 @@
 #!/usr/bin/emv ruby -w
 
+### Lesson 7: Maximum slice problem
+### Exercise 01: MaxDoubleSliceSum
+
 def solution(a)
     len = a.length
     

@@ -1,5 +1,8 @@
 #!/usr/bin/env ruby -w
 
+### Lesson 5: Stacks and Queues
+### Exercise 04: Fish
+
 def solution(a, b)
     counter = 0
     stack = []

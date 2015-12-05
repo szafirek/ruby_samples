@@ -1,5 +1,8 @@
 #!/usr/bin/env ruby -w
 
+### Lesson 2: Counting Elements
+### Exercise 03: MissingInteger
+
 def solution(a)
     ar = Array.new(a.length,false)
     a.each { |i| ar[i-1] = true if 0 < i && i <= a.length }

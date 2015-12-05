@@ -1,5 +1,8 @@
 #!/usr/bin/env ruby -w
 
+### Lesson 2: Counting Elements
+### Exercise 04: MaxCounters
+
 def solution(n, a)
     result = Array.new(n,0)
     max_counter = 0

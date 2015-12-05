@@ -1,5 +1,8 @@
 #!/usr/bin/env ruby -w
 
+### Lesson 1: Time Complexity
+### Exercise 01: TapeEquillibrium
+
 def solution(a)
     left = a[0]
     right = a.reduce(:+) - left

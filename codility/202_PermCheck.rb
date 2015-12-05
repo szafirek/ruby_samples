@@ -1,5 +1,8 @@
 #!/usr/bin/env ruby -w
 
+### Lesson 2: Counting Elements
+### Exercise 02: PermCheck
+
 def solution(a)
     size = a.length
     ar = Array.new(size+1,false)

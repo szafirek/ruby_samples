@@ -1,5 +1,8 @@
 #!/usr/bin/env ruby -w
 
+### Lesson 6: Leader
+### Exercise 01: Dominator
+
 def solution(a)
     length = a.length
     size, value, index = 0, nil, nil

@@ -1,5 +1,8 @@
 #!/usr/bin/env ruby -w
 
+### Lesson 4: Sorting
+### Exercise 04: NumberOfDiscIntersections
+
 def solution(a)
     len = a.length
     result = 0
